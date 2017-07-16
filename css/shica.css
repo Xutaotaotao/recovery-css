@@ -1,0 +1,24 @@
+body{
+	background-image: url(../img/ba-rear.png);
+	background-repeat: repeat-x;
+	background-color: #d3ff99;
+	background-position: 20% 0;
+}
+.content {
+	max-width: 61em; /* 1098px */
+	margin: 0 auto;
+	padding: 100px 20px 0 20px;
+}
+
+.midground{
+	background-image: url(../img/bg-mid.png);
+	background-repeat: repeat-x;
+	background-color: transparent;
+	background-position: 40% 0;
+}
+.foreground{
+	background-image: url(../img/bg-front.png);
+	background-repeat: repeat-x;
+	background-color: transparent;
+	background-position: 150% 0;
+}
