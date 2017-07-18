@@ -1,0 +1,51 @@
+ul.nav{
+	margin:0 auto;
+	padding: 0;
+	list-style: none;
+	width: 72em;
+	overflow: hidden;
+	background:#FAA819 url(../img/mainNavbg.gif) repeat-x;
+}
+ul.nav li{
+	float: left;
+}
+ul.nav a{
+	display: block;
+	padding: 0 3em;
+	line-height: 2.1em;
+	background:url(../img/divider.gif) repeat-y left top;
+	text-decoration: none;
+	color: #fff;
+}
+ul.nav .first a{
+	background-image: none;
+}
+ul.nav a:hover,
+ul.nav a:focus{
+	color: #333;
+}
+
+ul.nav1{
+	margin:10em auto;
+	padding: 0;
+	list-style: none;
+	width: 72em;
+	overflow: hidden;
+}
+ul.nav1 li{
+	float: left;
+	background:url(../img/tab-right.gif) no-repeat top right;
+}
+ul.nav1 li a{
+	display: block;
+	padding: 0 3em;
+	line-height: 2.5em;
+	background:url(../img/tab-left.gif) no-repeat top left;
+	text-decoration: none;
+	color:#fff;
+	float: left;
+}
+ul.nav1 a:hover,
+ul.nav1 a:focus{
+	color: #333;
+}
