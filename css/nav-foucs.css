@@ -1,0 +1,9 @@
+#home .nav .home a,
+#about .nav .about a,
+#news .nav .news a,
+#product .nav .products a,
+#services .nav .services a{
+	background-position: right bottom;
+	color: #fff;
+	cursor: default;
+}

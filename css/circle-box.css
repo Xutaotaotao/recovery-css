@@ -119,5 +119,5 @@
 	font-size: 1.6em;
 }
 .box7{
-	-webkit-border-image:url(../img/corners.gif) 25% 25% 25% 25% / 25px round round;
+	-webkit-border-image:url(../img/corners.gif) 25% 25% 25% 25% / 25px round ;
 }
