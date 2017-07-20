@@ -1,0 +1,43 @@
+fieldset{
+    width: 50%;
+    margin:1em 0;
+    padding:1em;
+    border:1px solid #ccc;
+    background:#f8f8f8;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    width: 20em;
+}
+
+textarea{
+    width: 50%;
+    height: 100%;
+}
+
+input[type="text"]{
+    width: 20em;
+}
+
+input[type="text"]:focus,textarea:focus{
+    background: #ffc;
+}
+input[type="text"],textarea{
+    border-top:2px solid #999;
+    border-left:2px solid #999;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.required{
+    font-size: 0.75em;
+    color: #760000;
+}
