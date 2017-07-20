@@ -1,0 +1,43 @@
+.content{
+    overflow: hidden;
+}
+.wrapper{
+    width: 920px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.content .primary{
+    width: 670px;
+    float: right;
+    padding-right: 10px;
+}
+
+.content .secondary{
+    width: 230px;
+    float: left;
+}
+.nav li{
+    list-style: none;
+}
+.nav li a:link,a:visited{
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav li a:hover,a:focus,a:active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.content .primary .primary{
+    width: 400px;
+    float: left;
+
+    background-color: beige;
+}
+
+.content .primary .secondary{
+    width: 230px;
+    float: right;
+    padding-left:20px;
+}
+
