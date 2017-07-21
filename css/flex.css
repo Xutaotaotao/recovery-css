@@ -1,0 +1,36 @@
+body{
+    font-size: 62.5%;
+    text-align: center;
+}
+
+.wrapper{
+    width: 92em;
+    max-width: 95%;
+    margin:0 auto;
+    text-align: left;
+}
+
+.content .primary{
+    width: 72.82%;
+    float: right;
+    display: inline;
+}
+
+.content .secondary{
+    width: 25%;
+    float: left;
+    display: inline;
+}
+
+.content .primary .primary{
+    width: 25%;
+    float: left;
+    display: inline;
+}
+
+.content .primary .secondary{
+    width: 34.33%;
+    padding-right: 2em;
+    float: right;
+    display: inline;
+}
