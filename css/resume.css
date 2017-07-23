@@ -32,6 +32,19 @@
 .content .secondary img{
     width: 50%;
     height: 50%;
+    margin-left: 20%;
+}
+.content .secondary .information{
+    margin-left: 20%;
+}
+.content .secondary .aboutme{
+    margin-left: 20%;
+}
+.content .secondary .honor{
+    margin-left: 20%;
+}
+.content .secondary .hobby{
+    margin-left: 20%;
 }
 .content .secondary h2{
     color: deepskyblue;
