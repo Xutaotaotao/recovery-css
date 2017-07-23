@@ -1,0 +1,54 @@
+
+.header{
+    text-align: center;
+    margin:0 auto;
+    font-size: 3em;
+}
+.content .primary{
+    width: 60%;
+    float: right;
+    display: inline;
+    margin-left: 5em;
+}
+.content .primary h2{
+    color: deepskyblue;
+    font-size: 3em;
+}
+.content .primary li{
+    font-weight: bolder;
+}
+.content .practice p{
+    font-weight: bolder;
+}
+
+.content .secondary{
+    width: 30%;
+    float: left;
+    display: inline;
+    margin-left: 5em;
+    border-right:1em solid #acacad;
+    position: absolute;
+}
+.content .secondary img{
+    width: 50%;
+    height: 50%;
+}
+.content .secondary h2{
+    color: deepskyblue;
+    font-size: 2em;
+}
+
+.footer{
+    clear: both;
+    text-align: center;
+    margin-top: 2em;
+    padding-top: 1em;
+}
+a:link,a:visited{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover,a:focus,a:active{
+    text-decoration: underline;
+    font-weight: bold;
+}
