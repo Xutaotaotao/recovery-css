@@ -195,7 +195,7 @@ li{
     width: 950px;
     height: 546px;
     margin: 0 auto;
-    border: 1px solid red;
+
 }
 #hd-con .con-lef{
     width: 373px;
@@ -203,7 +203,20 @@ li{
     position: absolute;
     left: 0px;
     top:0px;
-    border: solid 1px green;
+
+}
+#hd-con .con-lef ul{
+    margin-top: 16px;
+}
+#hd-con .con-lef ul li{
+    width: 171px;
+    height: 219px;
+    float: left;
+    margin-right: 10px;
+    background-color: white;
+}
+#hd-con .con-lef ul li span{
+    color: #999999;
 }
 #hd-con .con-mid{
     position: absolute;
@@ -211,7 +224,99 @@ li{
     top:0px;
     width: 298px;
     height: 546px;
-    border: solid 1px yellow;
+}
+#hd-con .con-mid ul{
+    margin-top: 37px;
+}
+#hd-con .con-mid ul li{
+    line-height: 30px;
+}
+#hd-con .con-mid ul h2{
+    color: #999;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+#hd-con .con-mid ul p{
+    color: #666666;
+}
+#hd-con .con-right p{
+    color: #999999;
+}
+#hd-con .con-right b{
+    display: block;
+    color: #999999;
+    font-weight: 400;
+}
+#hd-con .con-right{
+    height: 546px;
+}
+
+#hd-con .con-right ul{
+    margin-top: 13px;
+}
+#hd-con .con-right ul li{
+    height: 57px;
+    padding-bottom: 13px;
+}
+#hd-con .con-right .last-ad{
+    width: 258px;
+    height: 118px;
+    border: solid 1px #eeeeee;
+    position:absolute;
+    right: 6px;
+    bottom: 45px;
+}
+#hd-con .con-right .last-ad h2{
+    color: #0000;
+    font-size: 15px;
+    position: absolute;
+    left: 19px;
+    top:15px;
+}
+#hd-con .con-right .last-ad a.last-ad-pic{
+    position:absolute;
+    left: 19px;
+    top:44px;
+}
+#hd-con .con-right .last-ad a.last-ad-ghost{
+    display: block;
+    width: 68px;
+    height: 28px;
+    overflow: hidden;
+    position: absolute;
+    left: 87px;
+    top:11px;
+    color: white;
+}
+#hd-con .con-right .last-ad a.last-ad-ghost:hover{
+    background: white;
+}
+#hd-con .con-right .last-ad a.last-ad-rainbow{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: white;
+}
+#hd-con .con-right .last-ad a.last-ad-rainbow:hover{
+    background: white;
+}
+#hd-con .con-right .last-ad a.last-ad-beghost{
+    position: absolute;
+    left: 128px;
+    top:46px;
+}
+#hd-con .con-right .last-ad p{
+    color: #999999;
+    position: absolute;
+    left: 128px;
+    top:66px;
+}
+#hd-con .con-right .last-ad span{
+    color: #999999;
+    position: absolute;
+    left: 128px;
+    top:80px;
 }
 /*内容区域结束*/
 /*公共样式*/
@@ -226,10 +331,14 @@ h2.title{
     font: 15px/150% Arial,Helvetica,sans-serif;
     color:#007722 ;
 }
+h2.title span{
+    color: #666666;
+    font-size: 12px;
+}
+
 .right{
     position: absolute;
     width: 266px;
     right: 0px;
     top:0px;
-    border:solid 1px blue;
 }
