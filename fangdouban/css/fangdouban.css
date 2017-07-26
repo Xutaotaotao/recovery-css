@@ -333,6 +333,33 @@ li{
     margin:0 auto;
     position: relative;
 }
+#hd-movie-background #hd-movie .hd-movie-name{
+    display: block;
+    text-align: center;
+}
+#hd-movie-background #hd-movie span.hd-movie-point{
+    display: block;
+    width: 47px;
+    height: 11px;
+    overflow: hidden;
+    background: url("../img/midstars.gif") 20px 1px no-repeat;
+    text-align: left;
+    padding-left: 80px;
+    line-height: 12px;
+    color: #ff4400;
+}
+#hd-movie-background #hd-movie .movie-choose{
+    display: block;
+    width:68px ;
+    height: 23px;
+    background: #1c8bd0;
+    color: white;
+    line-height: 23px;
+    border-radius: 3px;
+    margin:6px auto;
+
+
+}
 /*电影区域结束*/
 /*公共样式*/
 a{
@@ -403,3 +430,18 @@ h2.title span{
 .left .left-down li a.left-down-des{
     line-height: 35px;
 }
+.mid{
+    width: 530px;
+    /*border: solid 1px black;*/
+    position: absolute;
+    left: 121px;
+    top:0px;
+}
+.mid ul li{
+    width: 127px;
+
+    text-align: center;
+    float: left;
+    margin-bottom:40px;
+}
+
