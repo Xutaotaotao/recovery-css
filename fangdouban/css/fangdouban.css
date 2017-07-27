@@ -322,7 +322,7 @@ li{
 /*电影区域*/
 #hd-movie-background{
     height: 631px;
-    background: #e8edf1;
+    background: #f7f7f7;
     margin-top: 44px;
     padding-top: 40px;
 }
@@ -397,7 +397,6 @@ li{
 #hd-book{
     width: 950px;
     height: 634px;
-    border: solid 1px red;
     margin: 38px auto 0px;
     position: relative;
 }
@@ -471,6 +470,8 @@ li{
 }
 #hd-book .right ul li{
     border-bottom: solid 1px cadetblue;
+    height: 60px;
+    margin-top: 25px;
 }
 #hd-book .right ul li span{
     float: left;
@@ -481,9 +482,91 @@ li{
 #hd-book .right ul li a{
     float: left;
     margin-right: 11px;
-
+    margin-bottom: 5px;
 }
 /*读书区域结束*/
+/*音乐区域*/
+#hd-music-background{
+    height: 464px;
+    background: #f7f7f7;
+    margin-top: 45px;
+    padding-top: 40px;
+}
+#hd-music-background a{
+    color: #555d53;
+}
+#hd-music-background a:hover{
+    color:white;
+}
+#hd-music-background #hd-music{
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+#hd-music-background #hd-music .music-title{
+    color: #f38c6a;
+}
+#hd-music-background #hd-music .music-title:hover{
+    color: white;
+}
+#hd-music-background #hd-music .music-fm{
+    background: url("../img/../img/app_icons_50_6.jpg") -250px 0 no-repeat;
+}
+#hd-music-background #hd-music .music-people{
+    background: url("../img/../img/app_icons_50_6.jpg") -50px 0 no-repeat;
+}
+#hd-music-background #hd-music .mid ul{
+    margin-top: 10px;
+}
+#hd-music-background #hd-music .mid ul li{
+    height: 140px;
+    width: 127px;
+}
+
+#hd-music-background #hd-music .mid ul b{
+    display: block;
+    width: 127px;
+    height: 9px;
+    background: url("../img/midstars.gif") 0 0 no-repeat;
+    color: #fd4400;
+    line-height: 10px;
+    margin-left: 35px;
+    padding-top: 1px;
+}
+#hd-music-background #hd-music .music-right-ul li{
+    width: 266px;
+    height: 82px;
+    position: relative;
+}
+#hd-music-background #hd-music .music-right-ul li img{
+    width: 48px;
+    height: 60px;
+    position: absolute;
+    left: 19px;
+    top:0px;
+
+}
+#hd-music-background #hd-music .music-right-ul li em{
+    position: absolute;
+    left: 0px;
+    top: 4px;
+}
+#hd-music-background #hd-music .music-right-ul li .music-right-name{
+    position: absolute;
+    left: 77px;
+    top:3px;
+}
+#hd-music-background #hd-music .music-right-ul li p{
+    position: absolute;
+    left: 77px;
+    top:23px;
+}
+#hd-music-background #hd-music .music-right-ul li b{
+    position: absolute;
+    left: 77px;
+    top:43px;
+}
+/*音乐区域结束*/
 /*公共样式*/
 a{
     color: #3377aa;
@@ -507,7 +590,6 @@ h2.title span{
     width: 266px;
     right: 0px;
     top:0px;
-    border: solid 1px #ED6752;
 }
 .ad {
     width: 950px;
@@ -540,7 +622,7 @@ h2.title span{
     margin-top: 28px;
 }
 .left .left-down li{
-    width: 55px;
+    width: 65px;
     height: 93px;
 
 }
