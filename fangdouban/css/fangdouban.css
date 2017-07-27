@@ -357,8 +357,38 @@ li{
     line-height: 23px;
     border-radius: 3px;
     margin:6px auto;
-
-
+}
+#hd-movie-background #hd-movie ul.hd-movie-list{
+    margin-top:10px ;
+}
+#hd-movie-background #hd-movie ul.hd-movie-list li{
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+#hd-movie-background #hd-movie .movie-right-ul{
+    margin-top: 15px;
+    float: left;
+}
+#hd-movie-background #hd-movie .movie-right-ul li{
+    width: 46px;
+    float: left;
+    line-height: 30px;
+}
+#hd-movie-background #hd-movie .movie-title{
+    float: left;
+    margin-top: 20px;
+}
+#hd-movie-background #hd-movie .movie-right-down{
+    float: left;
+}
+#hd-movie-background #hd-movie .movie-right-down li{
+    border-bottom: solid 1px cadetblue;
+    height: 35px;
+    line-height: 30px;
+    width: 264px;
+}
+#hd-movie-background #hd-movie .movie-right-down li a{
+    margin-left: 12px;
 }
 /*电影区域结束*/
 /*公共样式*/
@@ -372,6 +402,7 @@ a:hover{
 h2.title{
     font: 15px/150% Arial,Helvetica,sans-serif;
     color:#007722 ;
+    width: 280px;
 }
 h2.title span{
     color: #666666;
@@ -439,7 +470,7 @@ h2.title span{
 }
 .mid ul li{
     width: 127px;
-
+    height: 204px;
     text-align: center;
     float: left;
     margin-bottom:40px;

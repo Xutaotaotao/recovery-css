@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="798477de-9fe8-49bd-836d-723f0ea55aa2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fangdouban/css/fangdouban.css" afterPath="$PROJECT_DIR$/fangdouban/css/fangdouban.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fangdouban/fangdouban.html" afterPath="$PROJECT_DIR$/fangdouban/fangdouban.html" />
     </list>
@@ -24,8 +25,8 @@
       <file leaf-file-name="fangdouban.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fangdouban/fangdouban.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="213" column="14" lean-forward="true" selection-start-line="213" selection-start-column="14" selection-end-line="213" selection-end-column="14" />
+            <state relative-caret-position="548">
+              <caret line="251" column="26" lean-forward="false" selection-start-line="251" selection-start-column="26" selection-end-line="251" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -34,8 +35,8 @@
       <file leaf-file-name="fangdouban.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fangdouban/css/fangdouban.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="440" column="17" lean-forward="true" selection-start-line="440" selection-start-column="17" selection-end-line="440" selection-end-column="17" />
+            <state relative-caret-position="443">
+              <caret line="402" column="47" lean-forward="true" selection-start-line="402" selection-start-column="47" selection-end-line="402" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -87,9 +88,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="670" />
-    <option name="width" value="697" />
-    <option name="height" value="745" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -109,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -171,6 +172,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,12 +302,14 @@
       <workItem from="1500816424811" duration="2976000" />
       <workItem from="1500884989246" duration="22216000" />
       <workItem from="1500990681650" duration="6308000" />
-      <workItem from="1501030951396" duration="10591000" />
+      <workItem from="1501030951396" duration="10940000" />
+      <workItem from="1501109288459" duration="1326000" />
+      <workItem from="1501111240775" duration="4721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69267000" />
+    <option name="totallyTimeSpent" value="75663000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,10 +321,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="670" y="0" width="697" height="745" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07342144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07320644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -682,16 +686,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fangdouban/css/fangdouban.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="440" column="17" lean-forward="true" selection-start-line="440" selection-start-column="17" selection-end-line="440" selection-end-column="17" />
+        <state relative-caret-position="443">
+          <caret line="402" column="47" lean-forward="true" selection-start-line="402" selection-start-column="47" selection-end-line="402" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fangdouban/fangdouban.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="213" column="14" lean-forward="true" selection-start-line="213" selection-start-column="14" selection-end-line="213" selection-end-column="14" />
+        <state relative-caret-position="548">
+          <caret line="251" column="26" lean-forward="false" selection-start-line="251" selection-start-column="26" selection-end-line="251" selection-end-column="26" />
           <folding />
         </state>
       </provider>
