@@ -329,7 +329,6 @@ li{
 #hd-movie-background #hd-movie{
     width: 950px;
     height: 631px;
-    border: solid 1px red;
     margin:0 auto;
     position: relative;
 }
@@ -390,7 +389,42 @@ li{
 #hd-movie-background #hd-movie .movie-right-down li a{
     margin-left: 12px;
 }
+#hd-movie-background #hd-movie .movie-pic{
+    background: url(../img/app_icons_50_6.jpg) -350px 0 no-repeat;
+}
 /*电影区域结束*/
+/*读书区域*/
+#hd-book{
+    width: 950px;
+    height: 623px;
+    border: solid 1px red;
+    margin: 38px auto 0px;
+    position: relative;
+}
+#hd-book a{
+    color:#614e3c;
+}
+#hd-book a:hover{
+    color: white;
+}
+#hd-book .book-new{
+    position: relative;
+}
+#hd-book .book-new img{
+    position: absolute;
+    left:28px;
+    top:3px;
+}
+#hd-book .book-read{
+    background: url("../img/app_icons_50_6.jpg") no-repeat;
+}
+#hd-book .book-write{
+     background: url("../img/app_icons_50_6.jpg") -399px 0 no-repeat;
+ }
+#hd-book .book-buy{
+    background: url("../img/app_icons_50_6.jpg") -200px 0 no-repeat;
+}
+/*读书区域结束*/
 /*公共样式*/
 a{
     color: #3377aa;
@@ -454,7 +488,6 @@ h2.title span{
     display: block;
     width: 50px;
     height: 50px;
-    background: url(../img/app_icons_50_6.jpg) -350px 0 no-repeat;
     border-radius: 6px;
     box-shadow: 3px 3px 3px #999;
 }
