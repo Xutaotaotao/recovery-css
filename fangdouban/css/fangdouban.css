@@ -628,6 +628,7 @@ li{
     background: #f7f7f7;
     height: 385px;
     padding-top: 40px;
+    margin-bottom: 30px;
 
 }
 #hd-local-background #hd-local{
@@ -658,15 +659,13 @@ li{
 #hd-local-background #hd-local .local-mid-ul li div{
     float: right;
     width: 160px;
+    text-align: left;
 }
 
 #hd-local-background #hd-local .local-mid-ul li .local-mid-pic{
     position: absolute;
     left: 0px;
     top: 0px;
-}
-#hd-local-background #hd-local .local-mid-ul li .local-mid-title{
-    text-align: left;
 }
 #hd-local-background #hd-local .local-mid-ul li .local-mid-title span{
     background: #ff8263;
@@ -704,7 +703,24 @@ li{
     margin-right: 12px;
 }
 /*同城区域结束*/
-
+/*网页尾部*/
+#hd-foot{
+    width: 950px;
+    height: 88px;
+    border-top: dashed 1px #dcdcdc;
+    margin: 35px auto 0;
+    padding-top: 17px;
+}
+#hd-foot .foot-left{
+    width: 460px;
+    color: #999999;
+    float: left;
+}
+#hd-foot .foot-right{
+    width: 460px;
+    float: right;
+}
+/*网页尾部结束*/
 /*公共样式*/
 a{
     color: #3377aa;
