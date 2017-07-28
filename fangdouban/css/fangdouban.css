@@ -571,8 +571,8 @@ li{
 #hd-group{
     width: 950px;
     height: 642px;
-    margin: 0 auto;
     position: relative;
+    margin: 38px auto 0px;
 }
 #hd-group a{
     color: #017a85;
@@ -623,6 +623,88 @@ li{
     margin-right: 12px;
 }
 /*小组区域结束*/
+/*同城区域*/
+#hd-local-background{
+    background: #f7f7f7;
+    height: 385px;
+    padding-top: 40px;
+
+}
+#hd-local-background #hd-local{
+    width: 950px;
+    height: 345px;
+    margin: 0 auto;
+    position: relative;
+}
+#hd-local-background #hd-local a{
+    color: #664433;
+}
+#hd-local-background #hd-local a:hover{
+    color: white;
+}
+#hd-local-background #hd-local .local-big-a{
+    color: #ee6a03;
+}
+#hd-local-background #hd-local .local-a{
+    background: url("../img/app_icons_50_6.jpg") -100px 0 no-repeat;
+}
+#hd-local-background #hd-local .local-mid-ul li{
+    width: 234px;
+    height: 141px;
+    position: relative;
+    float: left;
+    margin-right: 25px;
+}
+#hd-local-background #hd-local .local-mid-ul li div{
+    float: right;
+    width: 160px;
+}
+
+#hd-local-background #hd-local .local-mid-ul li .local-mid-pic{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#hd-local-background #hd-local .local-mid-ul li .local-mid-title{
+    text-align: left;
+}
+#hd-local-background #hd-local .local-mid-ul li .local-mid-title span{
+    background: #ff8263;
+    text-align: center;
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 11px;
+    white-space: nowrap;
+}
+#hd-local-background #hd-local .local-mid-ul li p{
+   margin-top: 3px;
+    color: #666666;
+    text-align: left;
+}
+#hd-local-background #hd-local .local-mid-ul li span{
+    color: #666666;
+    text-align: left;
+}
+#hd-local-background #hd-local .group-right-ul{
+    width: 260px;
+    height: 70px;
+    float: left;
+    margin-top: 20px;
+}
+#hd-local-background #hd-local .group-right-ul .right-ul-first{
+    font-size: 14px;
+    color: #333333;
+}
+#hd-local-background #hd-local .group-right-ul .right-ul-first:hover{
+    color: white;
+}
+#hd-local-background #hd-local .right li p a{
+    float: left;
+    margin-right: 12px;
+}
+/*同城区域结束*/
+
 /*公共样式*/
 a{
     color: #3377aa;
